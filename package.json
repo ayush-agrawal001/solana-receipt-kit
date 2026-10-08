@@ -1,0 +1,12 @@
+{
+  "name": "solana-receipt-kit",
+  "version": "0.1.0",
+  "description": "Read-only Solana SPL payment reconciliation with replay-safe local receipts",
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "exports": { ".": "./src/verify.mjs", "./rpc": "./src/rpc.mjs", "./ledger": "./src/ledger.mjs" },
+  "bin": { "solana-receipt": "./src/cli.mjs" },
+  "scripts": { "test": "node --test", "demo": "node src/cli.mjs inspect --invoice examples/invoice.json --transaction examples/transaction.json" },
+  "license": "MIT",
+  "private": true
+}

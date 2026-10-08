@@ -1,0 +1,12 @@
+{
+  "id": "demo_invoice_001",
+  "genesisHash": "US517G5965aydkZ46HS38QLi7UQiSojurfbQfKCELFx",
+  "mint": "LbUiWL3xVV8hTFYBVdbTNrpDo41NKS6o3LHHuDzjfcY",
+  "recipientTokenAccount": "CktRuQ2mttgRGkXJtyksdKHjUdc2C4TgDzyB98oEzy8",
+  "recipientOwner": "GgBaCs3NCBuZN12kCJgAW63ydqohFkHEdfdEXBPzLHq",
+  "reference": "QWmroo4YnnMqYW3cnxWkFdaTxGD3P7vMSzwMHGbUzwF",
+  "amount": "25000000",
+  "decimals": 6,
+  "notBefore": 1700000000,
+  "expiresAt": 1900000000
+}
